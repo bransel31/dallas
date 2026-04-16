@@ -9,7 +9,7 @@ const client = new Client({
   ]
 });
 
-const DALLAS_GIF_URL = 'https://your-gif-url-here.gif';
+const DALLAS_GIF_URL = 'https://tenor.com/oFGNSsBAV1b.gif';
 
 client.on('messageCreate', message => {
   if (message.author.bot) return;
